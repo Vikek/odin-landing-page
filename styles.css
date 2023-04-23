@@ -1,3 +1,40 @@
-body {
+html, body {
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container, .image-container,
+ .quote-container, .sign-up-container {
+    display: flex;
+    flex: 1;
+  }
+
+
+.header-container {
+    background: #1f2937;
+}
+
+.image-container {
+    justify-content: center;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    justify-content: center;
+}
+
+.sign-up-container {
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 70px;
+    background: #1f2937;
+    justify-content: center;
+    align-items: center;
 }
