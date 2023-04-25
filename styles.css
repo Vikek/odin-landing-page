@@ -61,9 +61,9 @@ button {
 
 .header-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 8px 100px;
-    gap: 24px;
+    gap: 60px;
     margin-bottom: 48px;
 }
 
