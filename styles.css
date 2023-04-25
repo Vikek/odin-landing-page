@@ -23,6 +23,9 @@ body {
 
 .image-container {
     justify-content: center;
+    padding: 30px;
+    gap: 32px;
+    font-size: 18px;
 }
 
 .quote-container {
@@ -79,6 +82,14 @@ button {
     margin-bottom: 6px;
 }
 
+.images-title {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 ul {
     margin: 0;
     list-style: none;
@@ -87,4 +98,9 @@ ul {
     font-size: 18px;
     font-weight: initial;
     color: #e5e7eb;
+}
+
+img {
+    border: 2px solid #3882f6;
+    border-radius: 16px;
 }
