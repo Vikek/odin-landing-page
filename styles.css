@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;
+    height: 1500px;
 }
 
 body {
@@ -33,10 +33,12 @@ body {
     background: #e5e7eb;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 }
 
 .sign-up-container {
     justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -102,6 +104,33 @@ button {
 .quote-credit {
     font-size: 18px;
     font-weight: bold;
+}
+
+.sign-up-background {
+    background: #3882f6;
+    color: #f9faf8;
+    height: 80px;
+    width: 700px;
+    padding: 24px 42px;
+    margin: 32px;
+    gap: 30px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-title {
+    font-size: 24px;
+}
+
+.sign-up-information {
+    font-size: 14px;
+}
+
+.sign-up-button-bottom {
+    border: 1px solid #f9faf8;
 }
 
 ul {
